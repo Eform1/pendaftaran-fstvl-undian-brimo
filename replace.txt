@@ -1,0 +1,2 @@
+grep -rl "pendaftaran-fstvl-undian-brimo" . | xargs sed -i "s/pendaftaran-fstvl-undian-brimo/new-name/g"
+grep -rl "Pendaftaran FSTVL Undian BRImo" . | xargs sed -i "s/Pendaftaran FSTVL Undian BRImo/New Name/g"
